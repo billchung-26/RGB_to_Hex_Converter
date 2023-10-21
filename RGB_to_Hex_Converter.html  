@@ -1,0 +1,34 @@
+<div class="container">
+  <h2>RGB</h2>
+  <!-- 輸入數值 -->
+  <div class="typingColumn input-group-sm">
+    <div class="row">
+      <!-- 第一排 -->
+      <p>R:</p>
+      <input class="form-control me-2 rclass" type="text" placeholder="" aria-label="Search">
+      <div class="rsquare"> </div>
+    </div>
+    <div class="row">
+      <!-- 第二排 -->
+      <p>G:</p>
+      <input class="form-control me-2 gclass" type="text" placeholder="" aria-label="Search">
+      <div class="gsquare"> </div>
+    </div>
+    <div class="row">
+      <!--第三排 -->
+      <p>B:</p>
+      <input class="form-control me-2 bclass" type="text" placeholder="" aria-label="Search">
+      <div class="bsquare"> </div>
+    </div>
+  </div>
+</div>
+<!-- convert button-->
+<button type="button" class="btn btn-primary convertButton">Convert</button>
+
+<!-- 展示結果 -->
+<h2>HEX</h2>
+<div class="result">
+
+  <input class="form-control me-2 resultColumn" type="text" placeholder="" aria-label="Search">
+  <div class="resultSquare"></div>
+</div>
